@@ -45,9 +45,6 @@ const server = http.createServer((req, res) => {
 		res.writeHead('200', {
 			'Content-type': 'application/json',
 		});
-		// fs.readFile(`./dev-data/data.json`,'utf-8',(error,data) => {
-		// 	res.end(data)
-		// })
 		res.end(data);
 		
 	} else {
